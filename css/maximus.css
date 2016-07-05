@@ -1,0 +1,289 @@
+html body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: linear-gradient(15deg, rgba(87,86,82,1) 10%, rgba(154,139,122,1) 34%, rgba(185,163,141,1) 45%, rgba(219,201,164,1) 63%, rgba(225,209,174,1) 67%, rgba(255,252,224,1) 88%);
+  font-family: 'Geo', sans-serif;
+
+}
+
+.container {
+  width: 90%;
+}
+.card-regular {
+  margin: 1.25rem 0 0 0;
+  padding: 1em 0 0 0;
+  background-color: rgb(248, 243, 241);
+}
+
+.card-large {
+  background: linear-gradient(rgba(30, 28, 26, 0.90), rgba(30, 28, 26, 0.85)),
+                rgba(30, 28, 26, 0.90) url('../images/gladiator2.png');
+  background-position: center;
+  background-size: auto;
+  height: 34em;
+  margin: 1.25rem 0 0 0;
+  width: calc(24px + 100%);
+margin-left: -12px;
+}
+
+.image-fit img  {
+  position: relative;
+  height: 242px;
+  width: calc(24px + 100%);
+margin-left: -12px;
+}
+
+
+.box {
+  background-color: #663300;
+  color: #663300;
+  position: relative;
+  width: 100%;
+  height:100%;
+}
+.box-position {
+  position: absolute;
+  bottom: -18px;
+  width: 100%;
+}
+
+.card-small_white {
+  position: relative;
+  margin: 1.25rem 0 0 0;
+  padding-top: 1em;
+  background-color: rgb(248, 243, 241);
+}
+.card-small_white img{
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding-top: 0rem;
+}
+.card-small_grey {
+  /*padding: .75rem;*/
+  padding: 20px 8px;
+  background-color: #404040;
+  font-family: 'Geo', sans-serif;
+  margin-top: 14px;
+}
+
+
+
+  .decorate {
+   color: white;
+   line-height: 1em;
+
+ }
+ .video-container {
+   margin-top: 1.25rem;
+   height: 282px;
+   width: 100%;
+ }
+
+.card {
+  margin-top: 1rem;
+}
+
+.cohort {
+  margin: 10px 0;
+  background-color: #ED6C44;
+  }
+
+.legion {
+  margin: 10px 0;
+  background-color: #7F6C5E;
+}
+
+.equites {
+  margin: 10px 0;
+  background-color: #4C4642;
+}
+
+
+.circle-one {
+ background-color: rgb(255, 0, 0, 0);
+ border: 2px solid #7F6C5E;
+ height: 50px;
+ -moz-border-radius:75%;
+ -webkit-border-radius: 75%;
+ width: 50px;
+ color: #7F6C5E;
+ font-size: 18px;
+ padding-top: 8px;
+ }
+
+.circle-two {
+  background-color: rgb(255, 0, 0, 0);
+  /*border: 2px solid #4C4642;
+  height: 50px;
+   width: 25px;
+   -moz-border-radius: 50px 0 0 50px;
+   border-radius: 50px 0 0 50px;*/
+   color: #4C4642;
+   font-size: 18px;
+   padding-top: 8px;
+
+  }
+
+  .circle-three {
+   background-color: rgb(255, 0, 0, 0);
+   border: 2px solid #ED6C44;
+   height: 50px;
+   -moz-border-radius:75%;
+   -webkit-border-radius: 75%;
+   width: 50px;
+   text-align: center;
+   color: #ED6C44;
+   font-size: 18px;
+   padding-top: 8px;
+  }
+
+
+/*HELPERS*/
+
+
+.float-right {:
+}
+
+.check {
+  color: white;
+  background-color: #ED6C44;
+  border-radius: 50%;
+  border: solid .5rem #ED6C44;
+  margin: 1.35rem 0;
+
+}
+
+
+.preloader-wrapper.active {
+  animation: none;
+}
+
+.active .spinner-layer, .active .spinner-layer.spinner-blue-only, .active .spinner-layer.spinner-red-only, .active .spinner-layer.spinner-yellow-only, .active .spinner-layer.spinner-green-only {
+  animation: none;
+}
+
+.active .circle-clipper.left .circle {
+  animation: none;
+}
+.active .circle-clipper.right .circle {
+  animation: none;
+}
+
+.progress-bg {
+  background-color: rgb(248, 243, 241);
+}
+
+.progress .progress-one {
+  background-color: #ED6C44;
+}
+
+.progress .progress-two {
+  background-color: #7F6C5E;
+}
+
+.progress .progress-three {
+  background-color: #4C4642;
+}
+
+.circle {
+  width: 50px;
+  height:50px;
+}
+
+.circle-clipper.right .circle {
+  transform: rotate(321deg);
+}
+
+.circle-clipper.left .circle {
+  transform: rotate(318deg);
+}
+
+.spinner-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-color: #4C4642;
+}
+.center {
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.big-text {
+  font-size: 3em;
+  line-height: 1em;
+  margin: 0;
+  color: #404040;
+}
+
+.font-large1 {
+  font-size: 4.45em;
+  background: -webkit-linear-gradient(#F8F3F1, #4C4642);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+line-height: .9em;
+margin: .65em .5em;
+}
+
+.font-large2 {
+  font-size: 4.45em;
+  background: -webkit-linear-gradient(#957E60, #4C4642);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+line-height: .9em;
+margin: -.65em .5em;
+}
+
+.circle-clipper{
+  overflow: visible;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.font-12 {
+  font-size: 12px;
+  color: #C0C0C0;
+}
+
+.font-16 {
+  font-size: 16px;
+  line-height: 1rem;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+.no-margin {
+  margin: 0;
+}
+
+.legio {
+  margin: 0 15px;
+}
+
+.white-text {
+  color: #C0C0C0;
+}
+.grey-text {
+  color: #A0A0A0;
+}
+
+.cohort-p {
+  margin: 6px 0;
+
+}

@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+}
+body {
+  background: linear-gradient(15deg, rgba(87,86,82,1) 10%, rgba(154,139,122,1) 34%, rgba(185,163,141,1) 45%, rgba(219,201,164,1) 63%, rgba(225,209,174,1) 67%, rgba(255,252,224,1) 88%);
+}
+
+
+.container {
+  align: center;
+
+}
+.bottom_top {
+  background-color: grey;
+  height: 50px;
+}
